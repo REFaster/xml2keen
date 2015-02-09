@@ -10,12 +10,18 @@ Do a POST request to http://localhost:3000 with XML data in the body, you'll see
 
 Next go to line 49 and 50 of server.js and enter in your ProjectID and API writekey.
 
+Run that same test and you'll see it post into Keen
+
 Next go to http://heroku.com and sign up for a free account, then follow their instructions for pushing your code to an account with them.
+
+Test again with http://{{your app name here}}.herokuapp.com instead of localhost
+
+After completing your tests, tell your XML provider to send it's data to your web app and you're done.
 
 Now you can send XML data to Keen.io :)
 
 
-
+# License
 
 (The MIT License)
 
