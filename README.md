@@ -1,25 +1,27 @@
-# xml2keen 
+# xml2keen
 
 This is everything you need to send XML data to http://keen.io for your analytics reporting.
 
-Simply pull this repo, run "npm install" in the command line, then "node server".
+# Installation
 
-From there use your favorite REST Client, I like: https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo?hl=en-US
+Clone the repo and then run the following commands
 
-Do a POST request to http://localhost:3000 with XML data in the body, you'll see the JSON response in the REST client and in your console.
+```
+npm install
+node server
+```
 
-Next go to line 49 and 50 of server.js and enter in your ProjectID and API writekey.
+## Usage
 
-Run that same test and you'll see it post into Keen
-
-Next go to http://heroku.com and sign up for a free account, then follow their instructions for pushing your code to an account with them.
-
-Test again with http://{{your app name here}}.herokuapp.com instead of localhost
-
-After completing your tests, tell your XML provider to send it's data to your web app and you're done.
+* From there use your favorite REST Client, I like: https://chrome.google.com/webstore/detail/advanced-rest-client/hgmloofddffdnphfgcellkdfbfbjeloo?hl=en-US
+* Do a POST request to http://localhost:3000 with XML data in the body, you'll see the JSON response in the REST client and in your console.
+* Next go to line 49 and 50 of server.js and enter in your ProjectID and API writekey.
+* Run that same test and you'll see it post into Keen
+* Next go to http://heroku.com and sign up for a free account, then follow their instructions for pushing your code to an account with them.
+* Test again with http://{{your app name here}}.herokuapp.com instead of localhost
+* After completing your tests, tell your XML provider to send it's data to your web app and you're done.
 
 Now you can send XML data to Keen.io :)
-
 
 # License
 
