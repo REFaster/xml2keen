@@ -1,5 +1,6 @@
 {
   "name": "xml2",
+  "repository": "https://github.com/REFaster/xml2keen",
   "version": "1.0.0",
   "description": "converts xml to json and sends to keen",
   "main": "server.js",
