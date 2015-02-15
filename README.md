@@ -23,6 +23,10 @@ node server
 
 Now you can send XML data to Keen.io :)
 
+## Alternative Setup
+
+If you don't care about testing, then you don't need to install Node.js on your computer. Just clone this repo, modify lines 49 and 50, and push the code to Heroku. Heroku will set up the server to run Node.js
+
 # License
 
 (The MIT License)
