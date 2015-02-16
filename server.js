@@ -62,7 +62,7 @@ app.post("/", function(req, res, next) {
     // -> {"prop1":"val1","prop2":"val2","prop3":"val3"}
 
     //send to keen
-    client.addEvent(JSON.stringify(data), function(err, res) {
+    client.addEvent("<collection name>", data, function(err, res) {
     if (err) {
         console.log("Oh no, an error!");
     } else {

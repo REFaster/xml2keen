@@ -8,7 +8,7 @@ From there use your favorite REST Client, I like: https://chrome.google.com/webs
 
 Do a POST request to http://localhost:3000 with XML data in the body, you'll see the JSON response in the REST client and in your console.
 
-Next go to line 49 and 50 of server.js and enter in your ProjectID and API writekey.
+Next go to line 49 and 50 of server.js and enter in your ProjectID and API writekey. Then write the collection's name on line 65
 
 Run that same test and you'll see it post into Keen
 
